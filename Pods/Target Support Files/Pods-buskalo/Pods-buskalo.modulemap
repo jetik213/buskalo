@@ -1,0 +1,6 @@
+framework module Pods_buskalo {
+  umbrella header "Pods-buskalo-umbrella.h"
+
+  export *
+  module * { export * }
+}

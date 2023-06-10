@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		504E2853298D86DC00784020 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E2852298D86DC00784020 /* LoginViewController.swift */; };
+		504F05A429859AEE0027F3CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F05A329859AEE0027F3CC /* AppDelegate.swift */; };
+		504F05A629859AEE0027F3CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504F05A529859AEE0027F3CC /* SceneDelegate.swift */; };
+		504F05AB29859AEE0027F3CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504F05A929859AEE0027F3CC /* Main.storyboard */; };
+		504F05AE29859AEE0027F3CC /* buskalo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 504F05AC29859AEE0027F3CC /* buskalo.xcdatamodeld */; };
+		504F05B029859AF20027F3CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504F05AF29859AF20027F3CC /* Assets.xcassets */; };
+		504F05B329859AF20027F3CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504F05B129859AF20027F3CC /* LaunchScreen.storyboard */; };
+		505B3C1329AAE40A006BF048 /* Clients.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505B3C1229AAE40A006BF048 /* Clients.storyboard */; };
+		5071BD3E2999842400DF461B /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5071BD3D2999842400DF461B /* ProductsViewController.swift */; };
+		5073B755299849D400FC5F00 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5073B754299849D400FC5F00 /* ProductModel.swift */; };
+		50919E9F29A1EC45008D9C9D /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50919E9E29A1EC45008D9C9D /* ProductsTableViewCell.swift */; };
+		50B12C0429972083008E26B1 /* CreateProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B12C0329972083008E26B1 /* CreateProductViewController.swift */; };
+		50BB9B9D29A53B0F00E9FBD9 /* EditProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB9B9C29A53B0E00E9FBD9 /* EditProductViewController.swift */; };
+		50D4A4B5299B2ECB00552251 /* Distributors.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D4A4B4299B2ECB00552251 /* Distributors.storyboard */; };
+		50DF12CB29AB038E0031FDE6 /* ClientsProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF12CA29AB038E0031FDE6 /* ClientsProductsTableViewCell.swift */; };
+		50DF12CD29AB07FF0031FDE6 /* ClientsProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF12CC29AB07FF0031FDE6 /* ClientsProductsViewController.swift */; };
+		50EDBA1C2991EB87001882AB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDBA1B2991EB87001882AB /* RegisterViewController.swift */; };
+		50EDBA1E29920905001882AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50EDBA1D29920905001882AB /* GoogleService-Info.plist */; };
+		E5073EEFCCA1A640F5C0C51C /* Pods_buskalo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F14FC65A8F7A62CB2A3318 /* Pods_buskalo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A7B13CFC6B1AA33C195146B /* Pods-buskalo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buskalo.release.xcconfig"; path = "Target Support Files/Pods-buskalo/Pods-buskalo.release.xcconfig"; sourceTree = "<group>"; };
+		0D0641D7F8C637E6C5F6ADFF /* Pods-buskalo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buskalo.debug.xcconfig"; path = "Target Support Files/Pods-buskalo/Pods-buskalo.debug.xcconfig"; sourceTree = "<group>"; };
+		504E2852298D86DC00784020 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		504F05A029859AEE0027F3CC /* buskalo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buskalo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		504F05A329859AEE0027F3CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		504F05A529859AEE0027F3CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		504F05AA29859AEE0027F3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		504F05AD29859AEE0027F3CC /* buskalo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = buskalo.xcdatamodel; sourceTree = "<group>"; };
+		504F05AF29859AF20027F3CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		504F05B229859AF20027F3CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		505B3C1229AAE40A006BF048 /* Clients.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Clients.storyboard; sourceTree = "<group>"; };
+		5071BD3D2999842400DF461B /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		5073B754299849D400FC5F00 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		50919E9E29A1EC45008D9C9D /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
+		50B12C0329972083008E26B1 /* CreateProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProductViewController.swift; sourceTree = "<group>"; };
+		50BB9B9C29A53B0E00E9FBD9 /* EditProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProductViewController.swift; sourceTree = "<group>"; };
+		50D4A4B4299B2ECB00552251 /* Distributors.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Distributors.storyboard; sourceTree = "<group>"; };
+		50DF12CA29AB038E0031FDE6 /* ClientsProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsProductsTableViewCell.swift; sourceTree = "<group>"; };
+		50DF12CC29AB07FF0031FDE6 /* ClientsProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsProductsViewController.swift; sourceTree = "<group>"; };
+		50EDBA1B2991EB87001882AB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		50EDBA1D29920905001882AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		65F14FC65A8F7A62CB2A3318 /* Pods_buskalo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_buskalo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		504F059D29859AEE0027F3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5073EEFCCA1A640F5C0C51C /* Pods_buskalo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		356252818693F620E70D1C54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D0641D7F8C637E6C5F6ADFF /* Pods-buskalo.debug.xcconfig */,
+				0A7B13CFC6B1AA33C195146B /* Pods-buskalo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		504F059729859AED0027F3CC = {
+			isa = PBXGroup;
+			children = (
+				504F05A229859AEE0027F3CC /* buskalo */,
+				504F05A129859AEE0027F3CC /* Products */,
+				356252818693F620E70D1C54 /* Pods */,
+				BAD39BFCCBE68843DA625D6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		504F05A129859AEE0027F3CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504F05A029859AEE0027F3CC /* buskalo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		504F05A229859AEE0027F3CC /* buskalo */ = {
+			isa = PBXGroup;
+			children = (
+				505341EB2997FDAF000EF2BB /* Model */,
+				50EDBA1A2991E7D1001882AB /* Controller */,
+				50EDBA172991E58E001882AB /* View */,
+				504F05A329859AEE0027F3CC /* AppDelegate.swift */,
+				504F05A529859AEE0027F3CC /* SceneDelegate.swift */,
+				504F05AF29859AF20027F3CC /* Assets.xcassets */,
+				50EDBA1D29920905001882AB /* GoogleService-Info.plist */,
+				504F05AC29859AEE0027F3CC /* buskalo.xcdatamodeld */,
+			);
+			path = buskalo;
+			sourceTree = "<group>";
+		};
+		505341EB2997FDAF000EF2BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5073B754299849D400FC5F00 /* ProductModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50DF12C729AB01610031FDE6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				50EDBA1B2991EB87001882AB /* RegisterViewController.swift */,
+				504E2852298D86DC00784020 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		50DF12C829AB01A90031FDE6 /* Distributors */ = {
+			isa = PBXGroup;
+			children = (
+				50B12C0329972083008E26B1 /* CreateProductViewController.swift */,
+				5071BD3D2999842400DF461B /* ProductsViewController.swift */,
+				50BB9B9C29A53B0E00E9FBD9 /* EditProductViewController.swift */,
+				50919E9E29A1EC45008D9C9D /* ProductsTableViewCell.swift */,
+			);
+			path = Distributors;
+			sourceTree = "<group>";
+		};
+		50DF12C929AB024C0031FDE6 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				50DF12CA29AB038E0031FDE6 /* ClientsProductsTableViewCell.swift */,
+				50DF12CC29AB07FF0031FDE6 /* ClientsProductsViewController.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		50EDBA172991E58E001882AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				504F05A929859AEE0027F3CC /* Main.storyboard */,
+				504F05B129859AF20027F3CC /* LaunchScreen.storyboard */,
+				505B3C1229AAE40A006BF048 /* Clients.storyboard */,
+				50D4A4B4299B2ECB00552251 /* Distributors.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50EDBA1A2991E7D1001882AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				50DF12C929AB024C0031FDE6 /* Clients */,
+				50DF12C829AB01A90031FDE6 /* Distributors */,
+				50DF12C729AB01610031FDE6 /* Login */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BAD39BFCCBE68843DA625D6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65F14FC65A8F7A62CB2A3318 /* Pods_buskalo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		504F059F29859AEE0027F3CC /* buskalo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504F05B729859AF20027F3CC /* Build configuration list for PBXNativeTarget "buskalo" */;
+			buildPhases = (
+				1F4CA172F8812D1F96318ABA /* [CP] Check Pods Manifest.lock */,
+				504F059C29859AEE0027F3CC /* Sources */,
+				504F059D29859AEE0027F3CC /* Frameworks */,
+				504F059E29859AEE0027F3CC /* Resources */,
+				805ADB29028E2B1FE565D629 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = buskalo;
+			productName = buskalo;
+			productReference = 504F05A029859AEE0027F3CC /* buskalo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		504F059829859AED0027F3CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					504F059F29859AEE0027F3CC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 504F059B29859AED0027F3CC /* Build configuration list for PBXProject "buskalo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 504F059729859AED0027F3CC;
+			productRefGroup = 504F05A129859AEE0027F3CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504F059F29859AEE0027F3CC /* buskalo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504F059E29859AEE0027F3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504F05B329859AF20027F3CC /* LaunchScreen.storyboard in Resources */,
+				505B3C1329AAE40A006BF048 /* Clients.storyboard in Resources */,
+				50EDBA1E29920905001882AB /* GoogleService-Info.plist in Resources */,
+				50D4A4B5299B2ECB00552251 /* Distributors.storyboard in Resources */,
+				504F05B029859AF20027F3CC /* Assets.xcassets in Resources */,
+				504F05AB29859AEE0027F3CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F4CA172F8812D1F96318ABA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-buskalo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		805ADB29028E2B1FE565D629 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-buskalo/Pods-buskalo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-buskalo/Pods-buskalo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-buskalo/Pods-buskalo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		504F059C29859AEE0027F3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504F05AE29859AEE0027F3CC /* buskalo.xcdatamodeld in Sources */,
+				504F05A429859AEE0027F3CC /* AppDelegate.swift in Sources */,
+				50DF12CB29AB038E0031FDE6 /* ClientsProductsTableViewCell.swift in Sources */,
+				50EDBA1C2991EB87001882AB /* RegisterViewController.swift in Sources */,
+				50B12C0429972083008E26B1 /* CreateProductViewController.swift in Sources */,
+				5071BD3E2999842400DF461B /* ProductsViewController.swift in Sources */,
+				5073B755299849D400FC5F00 /* ProductModel.swift in Sources */,
+				504E2853298D86DC00784020 /* LoginViewController.swift in Sources */,
+				50BB9B9D29A53B0F00E9FBD9 /* EditProductViewController.swift in Sources */,
+				50919E9F29A1EC45008D9C9D /* ProductsTableViewCell.swift in Sources */,
+				504F05A629859AEE0027F3CC /* SceneDelegate.swift in Sources */,
+				50DF12CD29AB07FF0031FDE6 /* ClientsProductsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		504F05A929859AEE0027F3CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504F05AA29859AEE0027F3CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		504F05B129859AF20027F3CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504F05B229859AF20027F3CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		504F05B529859AF20027F3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		504F05B629859AF20027F3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		504F05B829859AF20027F3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D0641D7F8C637E6C5F6ADFF /* Pods-buskalo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/buskalo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cibertec.buskalo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		504F05B929859AF20027F3CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7B13CFC6B1AA33C195146B /* Pods-buskalo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/buskalo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cibertec.buskalo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		504F059B29859AED0027F3CC /* Build configuration list for PBXProject "buskalo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504F05B529859AF20027F3CC /* Debug */,
+				504F05B629859AF20027F3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504F05B729859AF20027F3CC /* Build configuration list for PBXNativeTarget "buskalo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504F05B829859AF20027F3CC /* Debug */,
+				504F05B929859AF20027F3CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		504F05AC29859AEE0027F3CC /* buskalo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				504F05AD29859AEE0027F3CC /* buskalo.xcdatamodel */,
+			);
+			currentVersion = 504F05AD29859AEE0027F3CC /* buskalo.xcdatamodel */;
+			path = buskalo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 504F059829859AED0027F3CC /* Project object */;
+}
